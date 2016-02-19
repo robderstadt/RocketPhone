@@ -12,7 +12,7 @@ When the device starts (by connecting the battery) it'll verify there's a cell s
 
 ## Build ##
 
-There are only a few parts required (plus two optional resistors):
+There are only a few parts required:
 
 1. <a href="https://www.adafruit.com/product/2542">Adafruit FONA 808 - Mini Cellular GSM + GPS Breakout</a>
 
@@ -22,7 +22,7 @@ There are only a few parts required (plus two optional resistors):
 
 4. <a href="https://www.adafruit.com/products/258">Lithium Ion Polymer Battery - 3.7v 1200mAh</a>
 
-5. <a href="https://www.sparkfun.com/products/8377">330Ω resistors (2)</a>
+5. <a href="https://www.sparkfun.com/products/8377">330Ω resistors</a> (2 required if using a 5V Arduino)
 
 6. <a href="https://www.adafruit.com/products/2505">GSM 2G SIM Card</a>
 
@@ -37,6 +37,8 @@ You can direct solder all connections using the wiring diagram or modify to suit
 Here is the workgin prototype I built:
 
 <img src="https://github.com/robderstadt/RocketPhone/blob/master/images/prototype.png"/>
+
+I would recomend mounting inside a nose cone or e-bay. I'm fond of the mounting systems provided by <a href="http://www.ape-rc.com/#!/Rocketry/c/11909535/inview=product49409110&offset=0&sort=normal"> Attebery Performance Engineering</a>. 
 
 ## How to Use ##
 Plug in the battery to the FONA (it'll power the Arduino), then press-and-hold the "key" button for 2 seconds. The FONA will startup. Next press and release the reset button on your Arduino. The software will initialize the FONA. You will recieve a text message once the system is ready for launch. At this point you can fly your model.
