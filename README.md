@@ -2,6 +2,9 @@
 Stick this in the nose cone or e-bay of your high-power rocket...When it lands, it'll text you the max altitude and a link to Google Maps with your model's location. No expensive telemetry or tracking hardware, FCC Amateur Radio License or any additional equipment required. As long as you have cell service at your launch site and a smart phone you're good to go. Just tap the link to open Google Maps and walk towards the point on the map to collect your model. 
 
 ## Demo ##
+*This is from my desk, but I will get a live shot at the next launch I attend*
+When the device starts it'll verify there's a cell signal, aguire a GPS lock and then determine the launch site altitude (via a pressure sensor). When these checks are complete you will recieve a "Ready" SMS. At this point the rocket can be flown. Once the software determines the rocket has landed it'll send another SMS message to your phone with the maximum altitude and a link that will open Google Maps with the rocket's location pinpointed. You can use this to find and retrieve your model. To launch again, simple reset the device. It will send additional texts every few minutes up to a configured maximum.
+
 <img src="https://github.com/robderstadt/RocketPhone/blob/master/images/sms.png"/>
 
 
@@ -12,6 +15,9 @@ Stick this in the nose cone or e-bay of your high-power rocket...When it lands, 
 ## Prototype ##
 <img src="https://github.com/robderstadt/RocketPhone/blob/master/images/prototype.png"/>
 
+## How to Use ##
+Plug in the battery to the FONA (it'll power the Arduino), then press-and-hold the "key" button for 2 seconds. The FONA will startup. Next press and release the reset button on your Arduino. The software will initialize the FONA.
+
 ## Caveat Emptor ##
 
-Use this information and library at your own risk! I cannot be held liable or responsible for how you use this information. Be aware that you could loose your rocket (or worse) if something goes wrong.
+Use this information and source code at your own risk! I cannot be held liable or responsible for how you use this information. Be aware that you could loose your rocket (or worse) if something goes wrong.
