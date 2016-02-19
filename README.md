@@ -1,5 +1,5 @@
 # Rocket Phone
-Stick this in the nose cone or e-bay of your high-power rocket...When it lands, it'll text you the max altitude and a link to Google Maps with your model's location!
+Stick this in the nose cone or e-bay of your high-power rocket...When it lands, it'll text you the max altitude and a link to Google Maps with your model's location. No expensive hardware, FCC Amature Radio License or any additional equipment required. As long as you have cell service at your launch site and a smart phone you're good to go.
 
 ## Demo ##
 <img src="https://github.com/robderstadt/RocketPhone/blob/master/images/sms.png"/>
