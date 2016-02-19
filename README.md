@@ -31,7 +31,7 @@ You can direct solder all connections using the wiring diagram (below) or modify
 
 You should take a look at the RocketPhone.ino file and make sure to add your cell number where specified and ensure all the other parameters match your build / hardware configuration. The default configuration will send five (5) SMS messages with a two minute delay between each message once the rocket has landed. A landing is determined when the rocket ascends 800ft above the launch site altitude and then descends below 800ft. There is a one minute delay between the time the rocket descends to 800ft and the first SMS message is sent.
 
-
+<p/>
 
 <img src="https://github.com/robderstadt/RocketPhone/blob/master/images/RocketPhoneFritzing.png"/>
 
