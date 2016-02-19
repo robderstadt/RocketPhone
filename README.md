@@ -1,5 +1,5 @@
 # Rocket Phone
-Stick this in the nose cone or e-bay of your high-power rocket...When it lands, it'll text you the max altitude and a link to Google Maps with your model's location. No expensive telemetry or tracking hardware, FCC Amateur Radio License or any additional equipment required. As long as you have cell service at your launch site and a smart phone you're good to go. Just tap the link to open Google Maps and walk towards the point on the map to collect your model. 
+Stick this in the nose cone or e-bay of your high-power rocket...When it lands, it'll text you the max altitude and a link to Google Maps with your model's location. No expensive telemetry or tracking hardware, FCC Amateur Radio License or any additional equipment required. *As long as you have cell service at your launch site and a smart phone you're good to go*. Just tap the link to open Google Maps and walk towards the point on the map to collect your model. 
 
 ## Demo ##
 *This is from my desk, but I will get a live shot at the next launch I attend.*
