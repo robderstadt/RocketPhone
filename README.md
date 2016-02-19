@@ -2,10 +2,10 @@
 Stick this in the nose cone or e-bay of your high-power rocket...When it lands, it'll text you the maximum altitude and a link to <a href="https://www.google.com/maps">Google Maps</a> with your model's location. No expensive telemetry or tracking hardware, FCC Amateur Radio License or any additional equipment is required. *As long as you have cell service at your launch site and a smart phone you're good to go*. Just tap the link to open Google Maps and walk towards the point on the map to collect your model. You can build one for about $100 USD (including battery). You could probably make it cheaper by using a different Arduino, battery and/or pressure sensor.
 
 ## Demo ##
-*This is a screenshot from my desk, but I will get a live shot at the next launch I attend along with a live map view.*
 
 When the device starts (by connecting the battery) it'll verify there's a cell signal, aquire a GPS lock and then determine the launch site altitude (via a pressure sensor). After these checks are complete you will recieve a "Ready" SMS message on your phone with the launch site altitude and location. At this point the rocket can be flown. Once the software determines the rocket has landed it'll send another SMS message to your phone with the maximum altitude reached during flight and a link that will open Google Maps with the rocket's location displayed. You can use this to find and retrieve your model. Additional texts with updated location information will be sent every few minutes up to a configured maximum. To launch again, simply reset the device. 
 
+*This is a screenshot from my desk, but I will get a live shot at the next launch I attend along with a live map view.*
 
 <img src="https://github.com/robderstadt/RocketPhone/blob/master/images/sms.png"/>
 
