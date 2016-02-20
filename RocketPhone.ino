@@ -17,7 +17,7 @@
 #include <Adafruit_FONA.h>
 
 #define CELL_NUMBER "" // The cell number to notify (XXXXXXXXXX)
-#define ALTITUDE_THRESHOLD 5.0 // Feet above launch site altitude
+#define ALTITUDE_THRESHOLD 500.0 // Feet above launch site altitude
 #define NUM_UPDATE_SMS 5 // Number of SMS messages to send upon landing
 #define UPDATE_INTERVAL 120 // Interval between SMS messages
 
