@@ -38,7 +38,7 @@ You should take a look at the RocketPhone.ino file and make sure to add your cel
 
 ## Prototype ##
 
-Here is the working prototype I built mounted to sled that will fit into the nose cone.
+Here is the working prototype I built mounted to sled that will fit into the nose cone. The battery is on the reverse side (secured with zip ties).
 
 <img src="https://github.com/robderstadt/RocketPhone/blob/master/images/ebay.png"/>
 
