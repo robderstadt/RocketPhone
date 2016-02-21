@@ -38,11 +38,11 @@ You should take a look at the RocketPhone.ino file and make sure to add your cel
 
 ## Prototype ##
 
-Here is the workgin prototype I built:
+Here is the workgin prototype I built mounted to sled that will fit into the nose cone.
 
-<img src="https://github.com/robderstadt/RocketPhone/blob/master/images/prototype.png"/>
+<img src="https://github.com/robderstadt/RocketPhone/blob/master/images/ebay.png"/>
 
-I would recomend mounting inside a nose cone or e-bay. I'm fond of the mounting systems provided by <a href="http://www.ape-rc.com/#!/Rocketry/c/11909535/inview=product49409110&offset=0&sort=normal"> Attebery Performance Engineering</a>. 
+I'm fond of the mounting systems provided by <a href="http://www.ape-rc.com/#!/Rocketry/c/11909535/inview=product49409110&offset=0&sort=normal"> Attebery Performance Engineering</a>.  
 
 ## How to Use ##
 Plug in the battery to the FONA (it'll power the Arduino), then press-and-hold the "key" button for 2 seconds. The FONA will startup. Next press and release the reset button on your Arduino. The software will initialize the FONA. You will recieve a text message once the system is ready for launch. At this point you can fly your model.
