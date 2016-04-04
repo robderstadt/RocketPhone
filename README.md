@@ -50,14 +50,15 @@ Here is the working prototype I built mounted to sled that will fit into the nos
 
 I'm a fan of the mounting systems provided by <a href="http://www.ape-rc.com/#!/Rocketry/c/11909535/inview=product49409110&offset=0&sort=normal"> Attebery Performance Engineering</a>.  
 
+## Test Flight ##
+
 The first test flight was aboard a LOC R2 Aero (basically a stretched out V2) flown on a Cesaroni I-470. It flew to a reported altitude of 1699ft. AGL according to the sensor. The model also contained an AltusMetrum TeleGPS just in case the Rocket Phone failed, which reported an altitude of 1772ft. 
 
 <img src="https://github.com/robderstadt/RocketPhone/blob/master/images/loc_r2_aero.png"/>
 
 <img src="https://github.com/robderstadt/RocketPhone/blob/master/images/landing_site.png"/>
 
-<iframe src="https://player.vimeo.com/video/161324096" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/161324096">LOC R2-Aero on a Cesaroni I-470. &quot;Rocket Phone&quot; Test Flight.</p>
+<p>Video: <a href="https://vimeo.com/161324096">LOC R2-Aero on a Cesaroni I-470. &quot;Rocket Phone&quot; Test Flight.</p>
 
 ## How to Use ##
 Plug in the battery to the FONA (it'll power the Arduino), then press-and-hold the "key" button for 2 seconds. The FONA will startup. Next press and release the reset button on your Arduino. The software will initialize the FONA. You will recieve a text message once the system is ready for launch. At this point you can fly your model.
