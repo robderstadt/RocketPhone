@@ -3,12 +3,18 @@ Stick this in the nose cone or e-bay of your high-power rocket...When it lands, 
 
 ## Demo ##
 
-When the device starts (by connecting the battery) it'll verify there's a cell signal, aquire a GPS lock and then determine the launch site altitude (via a pressure sensor). After these checks are complete you will recieve a "Ready" SMS message on your phone with the launch site altitude and location. At this point the rocket can be flown. Once the software determines the rocket has landed it'll send another SMS message to your phone with the maximum altitude reached during flight and a link that will open Google Maps with the rocket's location displayed. You can use this to find and retrieve your model. Additional texts with updated location information will be sent every few minutes up to a configured maximum. To launch again, simply reset the device. 
+When the device starts (by connecting the battery) it'll verify there's a cell signal, aquire a GPS lock and then determine the launch site altitude (via a pressure sensor). After these checks are complete you will recieve a "Ready" SMS message on your phone with the launch site altitude and location. 
 
-*This is a screenshot of my iPhone while testing at my desk, but I will get a live shot at the next launch I attend along with a live map view.*
+<img src="https://github.com/robderstadt/RocketPhone/blob/master/images/sms_ready.png"/>
 
-<img src="https://github.com/robderstadt/RocketPhone/blob/master/images/sms.png"/>
 
+At this point the rocket can be flown. Once the software determines the rocket has landed it'll send another SMS message to your phone with the maximum altitude reached during flight and a link that will open Google Maps with the rocket's location displayed. You can use this to find and retrieve your model. 
+
+<img src="https://github.com/robderstadt/RocketPhone/blob/master/images/sms_landed.png"/>
+
+Additional texts with updated location information will be sent every few minutes up to a configured maximum. To launch again, simply reset the device. 
+
+<img src="https://github.com/robderstadt/RocketPhone/blob/master/images/sms2.png"/>
 
 ## Build ##
 
@@ -42,7 +48,14 @@ Here is the working prototype I built mounted to sled that will fit into the nos
 
 <img src="https://github.com/robderstadt/RocketPhone/blob/master/images/ebay.png"/>
 
-I'm fond of the mounting systems provided by <a href="http://www.ape-rc.com/#!/Rocketry/c/11909535/inview=product49409110&offset=0&sort=normal"> Attebery Performance Engineering</a>.  
+I'm a fan of the mounting systems provided by <a href="http://www.ape-rc.com/#!/Rocketry/c/11909535/inview=product49409110&offset=0&sort=normal"> Attebery Performance Engineering</a>.  
+
+The first test flight was aboard a LOC R2 Aero (basically a stretched out V2) flown on a Cesaroni I-470. It flew to a reported altitude of 1699ft. AGL according to the sensor. The model also contained an AltusMetrum TeleGPS just in case the Rocket Phone failed, which reported an altitude of 1772ft. 
+
+<img src="https://github.com/robderstadt/RocketPhone/blob/master/images/loc_r2_aero.png"/>
+
+<img src="https://github.com/robderstadt/RocketPhone/blob/master/images/landing_site.png"/>
+
 
 ## How to Use ##
 Plug in the battery to the FONA (it'll power the Arduino), then press-and-hold the "key" button for 2 seconds. The FONA will startup. Next press and release the reset button on your Arduino. The software will initialize the FONA. You will recieve a text message once the system is ready for launch. At this point you can fly your model.
