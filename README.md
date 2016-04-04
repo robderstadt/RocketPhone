@@ -56,6 +56,8 @@ The first test flight was aboard a LOC R2 Aero (basically a stretched out V2) fl
 
 <img src="https://github.com/robderstadt/RocketPhone/blob/master/images/landing_site.png"/>
 
+<iframe src="https://player.vimeo.com/video/161324096" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/161324096">LOC R2-Aero on a Cesaroni I-470. &quot;Rocket Phone&quot; Test Flight.</p>
 
 ## How to Use ##
 Plug in the battery to the FONA (it'll power the Arduino), then press-and-hold the "key" button for 2 seconds. The FONA will startup. Next press and release the reset button on your Arduino. The software will initialize the FONA. You will recieve a text message once the system is ready for launch. At this point you can fly your model.
